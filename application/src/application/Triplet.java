@@ -23,7 +23,7 @@ public class Triplet <X, Y, Z> {
         return z;
     }
     
-    
+   
     void print() {
         System.out.println(this.x);
         System.out.println(this.y);

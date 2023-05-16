@@ -1,9 +1,10 @@
 package application;
 
 public class Triplet <X, Y, Z> {
-    X x;
-    Y y;
-    Z z;
+    private X x;
+    private Y y;
+    private Z z;
+    
     // Contructeur triplet
     Triplet(X arg1, Y arg2, Z arg3) {
         this.x = arg1;
